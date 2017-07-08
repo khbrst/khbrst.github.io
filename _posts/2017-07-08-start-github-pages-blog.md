@@ -1,12 +1,11 @@
 ---
 layout: post
 title:  "GitHub Pages로 블로그 시작하기"
-date:   2017-07-08 20:33:28 +0900
 ---
 
-# 왜 [GitHub Pages][github-pages]인가
-
 공부 과정들을 정리하는 겸 블로그를 다시 시작하려고 한다. 네이버, 티스토리 등의 블로그 서비스를 사용했었으나 불편함이 있어 여러 서비스들을 찾아보았다.
+
+# 왜 [GitHub Pages][github-pages]인가
 
 고민 끝에 [GitHub Pages][github-pages]를 선택했다. 진입장벽(*최소 간단한 웹, git 지식. 난 개발자니까 상관없다!*)이 있다고는 하나 매력적인 면(**심플함, 자유도, 편리함, ...**)들이 있었다.
 
@@ -64,18 +63,42 @@ bundle exec jekyll serve
 # Now browse to http://localhost:4000
 ```
 
+# [jekyll now][jekyll-now] theme 적용하기
+
+[jekyll now 가이드][jekyll-now]를 따라해보았다.
+
+저장소를 fork하는 방법이 아니라, clone한 후에 로컬에 덮어씌워서 적용시켰다.
+
+## Trouble shooting
+
+**Dependency Error**가 발생했다. 아래와 같이 해결하면 된다([출처][jekyll-now-bug]).
+
+```bash
+# For additional dependency
+gem install github-pages
+gem install jekyll-sitemap
+```
+
+```ruby
+# Gemfile
+...
+gem 'jekyll-sitemap'
+```
+
 # VSCode integrated terminal로 git bash 사용
 
 에디터, 터미널 하나씩 띄워두고 작업해도 되지만 귀찮은걸 싫어하기 때문에 VSCode의 integrated terminal로 git bash를 연동해서 사용하려고 한다. VSCode 내에서 단축키 하나로 왔다갔다할 수 있는 이점이 있다!
 
-VSCode > File > Prefrences > User settings 화면에서 아래 한 줄을 추가한다.
+VSCode > File > Preferences > User settings 화면에서 아래 한 줄을 추가한다.
 
 ```json
 "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
 ```
 
-[jekyll]:       https://jekyllrb.com
-[vscode]:       https://code.visualstudio.com/
-[github]:       https://github.com
-[github-new]:   https://github.com/new
-[github-pages]: https://pages.github.com
+[jekyll]:         https://jekyllrb.com
+[jekyll-now]:     https://github.com/barryclark/jekyll-now
+[jekyll-now-bug]: https://github.com/qwtel/hydejack/issues/8
+[vscode]:         https://code.visualstudio.com/
+[github]:         https://github.com
+[github-new]:     https://github.com/new
+[github-pages]:   https://pages.github.com
