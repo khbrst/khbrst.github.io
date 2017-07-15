@@ -27,3 +27,4 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # https://github.com/qwtel/hydejack/issues/8
 gem 'jekyll-sitemap'
+gem 'jekyll-paginate'
