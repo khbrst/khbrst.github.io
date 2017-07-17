@@ -9,7 +9,83 @@ type: page
 * content
 {:toc}
 
-## Git
+## 1. Trends
+
+[TIOBE Index](http://www.tiobe.com/index.php/content/paperinfo/tpci/index.html)
+
+[Google trends](https://trends.google.com/trends/)
+
+[GitHub trends](https://github.com/trending)
+
+[InfoQ](https://www.infoq.com/)
+
+[DZone](https://dzone.com/)
+
+[Stack Overflow](https://stackoverflow.com/)
+
+[Amazon](https://www.amazon.com/)
+
+[Wow! eBook](http://www.wowebook.in/)
+
+## 2. Jobs
+
+[Monster.com](https://www.monster.com/geo/siteselection)
+
+[Career 2.0](http://dowhatyoulove.today/)
+
+## 3. Overview
+
+[SlideShare](https://www.slideshare.net/)
+
+[YouTube](https://www.youtube.com/)
+
+[Code School](https://www.codeschool.com/)
+
+[Codecademy](https://www.codecademy.com/)
+
+[Udacity](http://www.udacity.com/)
+
+## 4. Books
+
+[Wow! eBook](http://www.wowebook.in/)
+
+[YES24](http://www.yes24.com/)
+
+## Tips
+
+[DocBook](https://help.ubuntu.com/community/DocBook)
+
+[OpenSSL key file format](http://serverfault.com/questions/9708/what-is-a-pem-file-and-how-does-it-differ-from-other-openssl-generated-key-file)
+
+[infogr.am](http://infogr.am/)
+
+[Cheat Sheet](http://cheat-sheets.org/)
+
+[Useful websites](https://github.com/sdmg15/Best-websites-a-programmer-should-visit)
+
+### Tools
+
+[cmder: Console Emulator](http://cmder.net/)
+
+[Linux log tools](http://xmodulo.com/open-source-log-monitoring-tools-linux.html)
+
+#### Web based
+
+[WebSequenceDiagrams](https://www.websequencediagrams.com/)
+
+[모르면 고생하는 사이트 8곳](http://m.insight.co.kr/newsRead.php?ArtNo=59968)
+
+[Sequence Diagram Tool - Web Sequence diagrams](http://www.genmymodel.com/sequence-diagram-tool)
+
+[Encoding / decoding tool. Analyze character encoding problems and errors.](http://string-functions.com/encodedecode.aspx)
+
+[Planttext](http://www.planttext.com/)
+
+[js-sequence-diagrams by bramp](https://bramp.github.io/js-sequence-diagrams/)
+
+[codepad](http://codepad.org/)
+
+#### Git
 
 [Git Cheatsheet](http://ndpsoftware.com/git-cheatsheet.html)
 
@@ -23,9 +99,9 @@ type: page
 
 [Windows 10 bash shell 언어 변경](http://www.sysnet.pe.kr/Default.aspx?mode=2&sub=0&detail=1&pageno=0&wid=11058&rssMode=1&wtype=0)
 
-### [Git - Book](https://git-scm.com/book/ko/v2)
+##### Git book
 
-정독을 추천하지만, 주관적으로 중요하다고 생각하는 목차는 아래와 같다.
+[Git - Book](https://git-scm.com/book/ko/v2) 정독을 추천하지만, 주관적으로 중요하다고 생각하는 목차는 아래와 같다.
 
 1. [1.3 시작하기 - Git 기초](https://git-scm.com/book/ko/v2/%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0-Git-%EA%B8%B0%EC%B4%88), [1.6 시작하기 - Git 최초 설정](https://git-scm.com/book/ko/v2/%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0-Git-%EC%B5%9C%EC%B4%88-%EC%84%A4%EC%A0%95)
 
@@ -69,7 +145,7 @@ type: page
 
     간단하게 명령어 설명들을 적어놨는데, 복습하는 느낌 겸 이전에 나오지 않았던 명령어 몇개가 있어 괜찮다.
 
-### Pull request
+###### Pull request
 
 Git workflow(GitHub, Bitbucket에서 사용)로, 중요하다고 생각하는 부분이기에 목차를 따로 냈다.
 
@@ -85,7 +161,205 @@ Git workflow(GitHub, Bitbucket에서 사용)로, 중요하다고 생각하는 �
 
     GitHub 오픈소스 프로젝트에 어떻게 기여할 수 있는지 step by step으로 설명하고 있는 GitHub Flow 가이드다.
 
-## 오픈소스
+#### Vim
+
+[Vim Awesome](http://vimawesome.com/)
+
+#### Eclipse
+
+[ANSIConsole](http://stackoverflow.com/questions/6286701/an-eclipse-console-view-that-respects-ansi-color-codes)
+
+## Programming languages
+
+[SoEnLab](http://www.soen.kr/)
+
+[Programming Tasks](http://rosettacode.org/wiki/Category:Programming_Tasks)
+
+[프로그래밍 언어](http://ko.wikipedia.org/wiki/%EB%B6%84%EB%A5%98:%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D_%EC%96%B8%EC%96%B4)
+
+[Markdown syntax document](http://daringfireball.net/projects/markdown/syntax)
+
+### C
+
+[전처리기 pdf](http://www.parkjonghyuk.net/lecture/programming1/lecturenote/chap08.pdf)
+
+[printf함수와 자릿수 지정](http://blog.naver.com/PostView.nhn?blogId=hhh4488hhh&logNo=50145959956)
+
+[printf함수와 작성법 이해](http://mrveryok.tistory.com/7)
+
+[cfaq](http://www.cinsk.org/cfaqs/index.ko.html)
+
+[전처리기 #define do{ 문장1; 문장2; 문장3 }while(0) 사용](http://kldp.org/node/49951)
+
+### C++
+
+[C++ Master 네이버 카페](http://cafe.naver.com/cppmaster)
+
+[Bjarne Stroustrup&#39;s Homepage](http://www2.research.att.com/~bs/)
+
+[name mangling](http://kalintz.springnote.com/pages/70624)
+
+[airplay SDK](http://feena74.blog.me/140156683926)
+
+[Boost C++ Libraries](http://www.boost.org/)
+
+[STL(Standard Template Library) Programmer&#39;s Guide](http://www.sgi.com/tech/stl/)
+
+[GCC, the GNU Compiler Collection](http://gcc.gnu.org/)
+
+## Platforms
+
+### Web
+
+[How Browsers Work: Behind the scenes of modern web browsers](https://www.html5rocks.com/en/tutorials/internals/howbrowserswork)
+
+### Docker
+
+[가장 빨리 만나는 도커(Docker) 출간 및 원고 공개](http://www.pyrasis.com/private/2014/11/30/publish-docker-for-the-really-impatient-book)
+
+### OS
+
+[운영체제 강의홈페이지](http://infosec.kut.ac.kr/sangjin/class/os/)
+
+[RAID 쉽게 이해하기](http://www.acnc.com/raid)
+
+[RAID](http://www.terms.co.kr/RAID.htm)
+
+[프로세스 스케줄링](http://shivan.tistory.com/26)
+
+[디스크 스케줄링](http://blog.naver.com/seungp916?Redirect=Log&logNo=60172935214)
+
+[디스크 스케줄링](http://blog.naver.com/hh_love_gh?Redirect=Log&logNo=90108897549)
+
+1. Linux
+
+    [커널연구회](http://www.kernel.bz/)
+
+    [아이엠루트](http://www.iamroot.org/xe/)
+
+    [리눅스 어셈블리 하우투](http://wiki.kldp.org/HOWTO/html/Assembly-HOWTO/)
+
+    [임베디드 시스템 엔지니어를 위한 리눅스 커널 분석](http://wiki.kldp.org/KoreanDoc/html/EmbeddedKernel-KLDP/index.html)
+
+    [uC/OS-II](http://blog.daum.net/jackryu/88)
+
+    [Linux Performance](http://www.brendangregg.com/linuxperf.html)
+
+    [리눅스 커널 공식 사이트](http://kernel.org/)
+
+    [리눅스 커널 메일링 리스트 사이트](https://lkml.org/)
+
+    [Ubuntu](http://www.ubuntu.com/)
+
+1. Android
+
+    [android dalvik vm 위에 java 올리기 - 구글 프로젝트 호스팅](http://code.google.com/p/android-dalvik-vm-on-java/)
+
+    [하드웨어 가속 android emulator](http://www.youtube.com/watch?v=T--vFtyZvc4)
+
+    [한국 Android Platform Group](http://www.kapg.org/)
+
+    [안드로이드 기술 커뮤니티 : Korea Android](http://www.kandroid.org/board/kandroid_home.php)
+
+    [2012 안드로이드 개발 프로그램 설치방법](http://blog.naver.com/theparanbi?Redirect=Log&logNo=80153324190)
+
+    [안드로이드 에뮬레이터를 빠르게 버추얼박스에서 구동하기](http://rdsong.com/616)
+
+    [MIME Type 정리](http://reipielr.tistory.com/41)
+
+    [안드로이드 프로그래밍 강좌 모음](http://www.tipssoft.com/bulletin/board.php?bo_table=old_bbs&wr_id=501)
+
+    [LayoutInflater, Inflate](http://aroundck.tistory.com/39)
+
+    [Version 점유율](http://developer.android.com/about/dashboards/index.html)
+
+    [Coursera](https://accounts.coursera.org/signin?course_id=971246&r=https%3A%2F%2Fclass.coursera.org%2Fandroid-001&user_action=class&topic_name=Programming%20Mobile%20Applications%20for%20Android%20Handheld%20Systems)
+
+1. GLib
+
+    [Glib oop](http://lethean.github.io/)
+
+    [그놈 개발 센터](https://developer.gnome.org/)
+
+## Software Engineering
+
+[Snippets.org](http://www.snippets.org/)
+
+[Google Style Guide](http://google-styleguide.googlecode.com/svn/trunk/)
+
+### Agile
+
+[TDD의 소개 - TDD의 장단점](http://hoonsbara.tistory.com/114)
+
+[hello world » Android에서 @Inject, @Test](http://helloworld.naver.com/helloworld/textyle/342818)
+
+[Extreme Programming Roadmap](http://www.c2.com/cgi/wiki?ExtremeProgrammingRoadmap)
+
+### OOP
+
+[OOP 설계 원칙 S.O.L.I.D.](http://www.slideshare.net/parkpd/oop-solid?fb_action_ids=463141240401446%2C462610233787880&fb_action_types=slideshare%3Aview&fb_source=other_multiline&action_object_map=%7B%22463141240401446%22%3A448454657809%2C%22462610233787880%22%3A10150766725793948%7D&action_type_map=%7B%22463141240401446%22%3A%22slideshare%3Aview%22%2C%22462610233787880%22%3A%22slideshare%3Aview%22%7D&action_ref_map=%5B%5D&code=AQCq0SRRqBe2QEhKex8Ks-d66zhf2Dd92axwbXRmeNFZps_TpDMK2_8DwPjm19926IlZmH-_qfahFI3f6--BNKG26vMzHYwdNFz6jYHynqI8EBqNv3sjr-4S7IlourHfaeEZ06G6anyf5PQRiOU0xIXKER6sHQ5-uPtGpfNbkttox6en7fGBxmbG11yWZCHWEIjiazDP8p4cmN2RhUTmjFKg#_=_)
+
+### Design Pattern
+
+[표준 프레임워크](http://www.egovframe.go.kr/Main.do)
+
+[AspectJ](http://www.eclipse.org/aspectj/)
+
+[AspectC++](http://www.aspectc.org/)
+
+[교육, 컨설팅, 솔루션개발](http://consolution.co.kr/)
+
+[dynamic-tiles2](http://www.springbyexample.org/static/0.9/html/ar18.html#d0e3061)
+
+[도서출판 콘솔](http://consolbook.com/)
+
+[GUI Architectures](http://martinfowler.com/eaaDev/uiArchs.html)
+
+### Prototyping
+
+[프로토타이핑 툴의 장단점](http://uxfactory.com/480)
+
+## Embedded
+
+[친절한 임베디드 시스템 개발자 되기](http://recipes.egloos.com/)
+
+[임베디드 리눅스 시스템 포럼](http://forum.falinux.com/zbxe/)
+
+## Algorithm
+
+[VisuAlgo](http://www.comp.nus.edu.sg/~stevenha/visualization/index.html)
+
+[Dynamic programming](http://www.slideshare.net/fragilesez/dynamic-programming-6902646)
+
+### Problem bank
+
+[정보 올림피아드](http://www.jungol.co.kr/site/)
+
+[Programming Challenges](http://www.programming-challenges.com/pg.php?page=index)
+
+[Campus Virtual UVa](http://campusvirtual.uva.es/)
+
+[UVa Online Judge](http://uva.onlinejudge.org/index.php?option=com_frontpage&Itemid=1)
+
+[알고리즘 트레이닝](http://211.228.163.31/index.php)
+
+[Try-cat.ch](http://www.try-cat.ch/contest/main)
+
+[Baekjoon Online Judge](https://www.acmicpc.net/)
+
+## Reverse Engineering
+
+[리버스코어](http://reversecore.tistory.com/)
+
+[안티 디버깅(Anti-Debugging)](http://dakuo.tistory.com/40)
+
+[VirusTotal](https://www.virustotal.com/)
+
+[/hotpatch, /functionpadmi](http://blog.naver.com/iwillhackyou/110066358544)
+
+## Archive
+
+### Open Source
 
 1. 참여 가이드
 
@@ -102,20 +376,6 @@ Git workflow(GitHub, Bitbucket에서 사용)로, 중요하다고 생각하는 �
     [오픈소스 시대의 공부하는 방식의 변화](http://bcho.tistory.com/873)
 
     [오픈소스 활동의 오해](https://softwaregeeks.org/2014/01/17/%EC%98%A4%ED%94%88%EC%86%8C%EC%8A%A4-%ED%99%9C%EB%8F%99%EC%9D%98-%EC%98%A4%ED%95%B4/)
-
-## Tools
-
-[프로그래밍 언어 검색 순위](https://www.tiobe.com/tiobe-index/)
-
-[화면설계 & 프로토타이핑 툴 정리](http://yslab.kr/94)
-
-## etc
-
-[Best websites a programmer should visit](https://github.com/sdmg15/Best-websites-a-programmer-should-visit)
-
-[Markdown syntax document](http://daringfireball.net/projects/markdown/syntax)
-
-[How Browsers Work: Behind the scenes of modern web browsers](https://www.html5rocks.com/en/tutorials/internals/howbrowserswork)
 
 ## Comments
 
