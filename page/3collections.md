@@ -301,10 +301,6 @@ type: page
 
     SlideShare 발표용 자료.
 
-### Prototyping
-
-* [프로토타이핑 툴의 장단점](http://uxfactory.com/480)
-
 ### Aspect-Oriented Software Development
 
 * [AspectJ](http://www.eclipse.org/aspectj/)
