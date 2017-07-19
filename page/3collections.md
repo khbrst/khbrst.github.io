@@ -17,13 +17,15 @@ type: page
 
   * [TIOBE Index](https://www.tiobe.com/tiobe-index/)
 
-    프로그래밍 언어 인기 순위 (달마다 업데이트)
+    프로그래밍 언어 인기 순위(달마다 업데이트), 자체적인 기준으로 순위를 매긴다지만 자세한 설명은 없다.
+
+  * [Google trends](https://trends.google.com/trends/)
+
+    Google 검색 데이터 정보들을 국가/주제/키워드별로 훑어볼 수 있다.
 
   * [GitHub trends](https://github.com/trending)
 
-    GitHub Repository Star Ranking (오늘/이번주/이번달)
-
-  * [Google trends](https://trends.google.com/trends/)
+    GitHub에서 인기있는 저장소 순위(오늘/이번주/이번달), Star 기준이다.
 
 * News
 
@@ -47,15 +49,17 @@ type: page
 
 ## 3. Overview
 
+자료들을 빠르게 훑어보기 좋은 사이트들이다.
+
 * [SlideShare](https://www.slideshare.net/)
 
 * [YouTube](https://www.youtube.com/)
 
-* [Code School](https://www.codeschool.com/)
+* Coding practice
 
-* [Codecademy](https://www.codecademy.com/)
+  * [Code School](https://www.codeschool.com/)
 
-* [Udacity](http://www.udacity.com/)
+  * [Codecademy](https://www.codecademy.com/)
 
 ## 4. Books
 
@@ -65,45 +69,47 @@ type: page
 
 * [YES24](http://www.yes24.com/)
 
+## Dev Blog
+
+* [Hello world](http://d2.naver.com/helloworld)
+
+    NAVER 개발자들이 직접 정리한 실전 개발 경험과 지식이 담겨진 블로그
+
 ## Tips
 
 * [Best websites a programmer should visit](https://github.com/sdmg15/Best-websites-a-programmer-should-visit)
 
-    유용한 사이트 링크들을 모아둔 GitHub 저장소
+    유용한 사이트 링크들을 모아둔 GitHub 저장소, 많은 링크들이 보기 쉽게 정리되어 있다.
 
 * [Cheat Sheet](http://cheat-sheets.org/)
 
-    수많은 언어별로 잘 정리된 Cheat Sheet
-
-* [DocBook](https://help.ubuntu.com/community/DocBook)
-
-    XML로 만들어진 format 중 한 형식
+    수많은 언어별로 잘 정리된 Cheat Sheet.
 
 * [SSL key file format descriptions](http://serverfault.com/questions/9708/what-is-a-pem-file-and-how-does-it-differ-from-other-openssl-generated-key-file)
 
-    많이 사용되는 SSL file format들에 대한 간단한 설명
+    많이 사용되는 SSL file format들에 대한 간단한 설명이다.
 
 ## Tools
 
 * [cmder](http://cmder.net/)
 
-    Windows Console Emulator
+    Windows Console Emulator.
 
 * [Linux log tools](http://xmodulo.com/open-source-log-monitoring-tools-linux.html)
 
-    Linux 오픈소스 로그 모니터링 툴 추천
+    Linux 오픈소스 로그 모니터링 툴들을 사진과 함께 간단한 설명으로 정리되어 있다.
 
 ### Web based
 
-* [Encoding / decoding tool](http://string-functions.com/encodedecode.aspx)
+* [Character Encoder / Decoder](http://string-functions.com/encodedecode.aspx)
 
 * [codepad](http://codepad.org/)
 
-    코드를 올려 컴파일, 실행해볼 수 있다.
+    웹 환경에 코드를 올려 컴파일, 실행해볼 수 있다. 다양한 프로그래밍 언어를 지원한다.
 
 * [infogr.am](http://infogr.am/)
 
-    인포그래픽을 간단하게 제작할 수 있다.
+    인포그래픽을 간단하게 제작할 수 있는 웹기반 서비스다.
 
 * [인사이트: 모르면 고생하는 사이트 8곳](http://m.insight.co.kr/newsRead.php?ArtNo=59968)
 
@@ -123,15 +129,25 @@ type: page
 
 * [Git Cheatsheet](http://ndpsoftware.com/git-cheatsheet.html)
 
-* [Git bash prompt setting](http://mediadoneright.com/content/ultimate-git-ps1-bash-prompt)
+  * Git bash PS1 prompt setting
 
-* [Gitignore 설정하기 전에 commit한 파일 stage에서만 삭제하기](http://stackoverflow.com/questions/6535362/gitignore-after-commit)
+    Git을 위한 bash PS1 prompt를 꾸미는 것에 관련된 링크들이다.
 
-* [bash-git-prompt](https://github.com/magicmonty/bash-git-prompt)
+    1. [ultimate-git-ps1-bash-prompt](http://mediadoneright.com/content/ultimate-git-ps1-bash-prompt)
 
-* [Windows 10 bash shell에서 git 사용시 lineending 옵션 설정](http://stackoverflow.com/questions/10418975/how-to-change-line-ending-settings)
+        간단한 사진, 설명과 함께 수정하기 쉽게 구성되어 있다.
 
-* [Windows 10 bash shell 언어 변경](http://www.sysnet.pe.kr/Default.aspx?mode=2&sub=0&detail=1&pageno=0&wid=11058&rssMode=1&wtype=0)
+    1. [bash-git-prompt](https://github.com/magicmonty/bash-git-prompt)
+
+        GitHub 프로젝트로, clone 이후 명령어로 간단하게 수정할 수 있게 만들어졌다.
+
+  * Trouble shooting
+
+    * [Gitignore 설정하기 전에 commit한 파일 stage에서만 삭제하기](http://stackoverflow.com/questions/6535362/gitignore-after-commit)
+
+    * [Windows 10 bash shell에서 git 사용시 lineending 옵션 설정](http://stackoverflow.com/questions/10418975/how-to-change-line-ending-settings)
+
+    * [Windows 10 bash shell 언어 변경](http://www.sysnet.pe.kr/Default.aspx?mode=2&sub=0&detail=1&pageno=0&wid=11058&rssMode=1&wtype=0)
 
 * Git book
 
@@ -145,7 +161,7 @@ type: page
 
       개념잡기에 좋다.
 
-  [3.6 Git 브랜치 - Rebase 하기](https://git-scm.com/book/ko/v2/Git-%EB%B8%8C%EB%9E%9C%EC%B9%98-Rebase-%ED%95%98%EA%B8%B0)는 익숙하지 않으면 어려워보이니 따라해보면 좋다.
+      [3.6 Git 브랜치 - Rebase 하기](https://git-scm.com/book/ko/v2/Git-%EB%B8%8C%EB%9E%9C%EC%B9%98-Rebase-%ED%95%98%EA%B8%B0)는 익숙하지 않으면 어려워보이니 따라해보면 좋다.
 
   1. [4.1 Git 서버 - 프로토콜](https://git-scm.com/book/ko/v2/Git-%EC%84%9C%EB%B2%84-%ED%94%84%EB%A1%9C%ED%86%A0%EC%BD%9C), [4.9 Git 서버 - 또 다른 선택지, 호스팅](https://git-scm.com/book/ko/v2/Git-%EC%84%9C%EB%B2%84-%EB%98%90-%EB%8B%A4%EB%A5%B8-%EC%84%A0%ED%83%9D%EC%A7%80%2C-%ED%98%B8%EC%8A%A4%ED%8C%85)
 
@@ -199,219 +215,141 @@ type: page
 
 * [Vim Awesome](http://vimawesome.com/)
 
-    유용한 Vim plugin 모음
+    유용한 Vim plugin 모음, 깔끔한 UI, plugin마다 인기도를 볼 수 있고 간단하게 설치할 수 있게 도와주는 고마운 사이트다.
 
 ### Eclipse
 
 * [ANSIConsole](http://stackoverflow.com/questions/6286701/an-eclipse-console-view-that-respects-ansi-color-codes)
 
-    ANSI color 적용된 console을 볼 수 있게 해주는 eclipse plugin
+    ANSI color 적용된 console을 볼 수 있게 해주는 eclipse plugin.
 
 ## Programming languages
 
-[SoEnLab](http://www.soen.kr/)
+* [Programming Tasks](http://rosettacode.org/wiki/Category:Programming_Tasks)
 
-[Programming Tasks](http://rosettacode.org/wiki/Category:Programming_Tasks)
+    일반적인 문제 해결 코드들을 프로그래밍 언어별로 제공한다.
 
-[Markdown syntax document](http://daringfireball.net/projects/markdown/syntax)
+* [Markdown syntax document](http://daringfireball.net/projects/markdown/syntax)
 
-### C
+    Markdown 문법 문서.
 
-[전처리기 pdf](http://www.parkjonghyuk.net/lecture/programming1/lecturenote/chap08.pdf)
+* [c-faq](http://c-faq.com/)([한국어판](http://www.cinsk.org/cfaqs/index.ko.html))
 
-[printf함수와 자릿수 지정](http://blog.naver.com/PostView.nhn?blogId=hhh4488hhh&logNo=50145959956)
-
-[printf함수와 작성법 이해](http://mrveryok.tistory.com/7)
-
-[cfaq](http://www.cinsk.org/cfaqs/index.ko.html)
-
-[전처리기 #define do{ 문장1; 문장2; 문장3 }while(0) 사용](http://kldp.org/node/49951)
-
-### C++
-
-[C++ Master 네이버 카페](http://cafe.naver.com/cppmaster)
-
-[Bjarne Stroustrup&#39;s Homepage](http://www2.research.att.com/~bs/)
-
-[name mangling](http://kalintz.springnote.com/pages/70624)
-
-[airplay SDK](http://feena74.blog.me/140156683926)
-
-[Boost C++ Libraries](http://www.boost.org/)
-
-[STL(Standard Template Library) Programmer&#39;s Guide](http://www.sgi.com/tech/stl/)
-
-[GCC, the GNU Compiler Collection](http://gcc.gnu.org/)
+    [Steve Summit](http://www.eskimo.com/~scs/)씨의 C 언어 QnA.
 
 ## Platforms
 
 ### Web
 
-[How Browsers Work: Behind the scenes of modern web browsers](https://www.html5rocks.com/en/tutorials/internals/howbrowserswork)
+* [How Browsers Work: Behind the scenes of modern web browsers](https://www.html5rocks.com/en/tutorials/internals/howbrowserswork)
+
+    초심자를 위한 웹 브라우저 동작에 대한 글이다.
 
 ### Docker
 
-[가장 빨리 만나는 도커(Docker) 출간 및 원고 공개](http://www.pyrasis.com/private/2014/11/30/publish-docker-for-the-really-impatient-book)
+* [가장 빨리 만나는 도커(Docker)](http://www.pyrasis.com/private/2014/11/30/publish-docker-for-the-really-impatient-book)
+
+    Docker 책 저자 블로그에 책 내용들이 포스팅되어 있다.
 
 ### OS
 
-[운영체제 강의홈페이지](http://infosec.kut.ac.kr/sangjin/class/os/)
+* [RAID Level Tutorial](http://www.acnc.com/raid)
 
-[RAID 쉽게 이해하기](http://www.acnc.com/raid)
-
-[RAID](http://www.terms.co.kr/RAID.htm)
-
-[프로세스 스케줄링](http://shivan.tistory.com/26)
-
-[디스크 스케줄링](http://blog.naver.com/seungp916?Redirect=Log&logNo=60172935214)
-
-[디스크 스케줄링](http://blog.naver.com/hh_love_gh?Redirect=Log&logNo=90108897549)
+    RAID level별로 그림과 간단한 설명이 있다.
 
 1. Linux
 
-    [커널연구회](http://www.kernel.bz/)
+    * [IAMROOT: 아이엠루트](http://www.iamroot.org/xe/)
 
-    [아이엠루트](http://www.iamroot.org/xe/)
+      유명한 오프라인 시스템 소프트웨어 스터디 그룹.
 
-    [리눅스 어셈블리 하우투](http://wiki.kldp.org/HOWTO/html/Assembly-HOWTO/)
+    * [Linux Assembly HOWTO: 리눅스 어셈블리 하우투](http://wiki.kldp.org/HOWTO/html/Assembly-HOWTO/)
 
-    [임베디드 시스템 엔지니어를 위한 리눅스 커널 분석](http://wiki.kldp.org/KoreanDoc/html/EmbeddedKernel-KLDP/index.html)
+      GNU 의 자유 프로그래밍 도구들을 사용하여 (주로) 인텔의 32 비트 플랫폼(IA32 ; i386)의 리눅스에서 어셈블리 언어로 프로그래밍 하는 법을 설명한다.
 
-    [uC/OS-II](http://blog.daum.net/jackryu/88)
+    * [임베디드 시스템 엔지니어를 위한 리눅스 커널 분석](http://wiki.kldp.org/KoreanDoc/html/EmbeddedKernel-KLDP/index.html)
 
-    [Linux Performance](http://www.brendangregg.com/linuxperf.html)
+      리눅스 커널 자체의 원론적인 것 보다는 임베디드 시스템에 리눅스 커널을 포팅할 때 엔지니어가 리눅스 커널에 쉽게 접근하기 위한 정보나 혹은 방법을 제공하는 것이 목적인 문서.
 
-    [리눅스 커널 공식 사이트](http://kernel.org/)
+    * [Linux Performance](http://www.brendangregg.com/linuxperf.html)
 
-    [리눅스 커널 메일링 리스트 사이트](https://lkml.org/)
-
-    [Ubuntu](http://www.ubuntu.com/)
-
-1. Android
-
-    [android dalvik vm 위에 java 올리기 - 구글 프로젝트 호스팅](http://code.google.com/p/android-dalvik-vm-on-java/)
-
-    [하드웨어 가속 android emulator](http://www.youtube.com/watch?v=T--vFtyZvc4)
-
-    [한국 Android Platform Group](http://www.kapg.org/)
-
-    [안드로이드 기술 커뮤니티 : Korea Android](http://www.kandroid.org/board/kandroid_home.php)
-
-    [2012 안드로이드 개발 프로그램 설치방법](http://blog.naver.com/theparanbi?Redirect=Log&logNo=80153324190)
-
-    [안드로이드 에뮬레이터를 빠르게 버추얼박스에서 구동하기](http://rdsong.com/616)
-
-    [MIME Type 정리](http://reipielr.tistory.com/41)
-
-    [안드로이드 프로그래밍 강좌 모음](http://www.tipssoft.com/bulletin/board.php?bo_table=old_bbs&wr_id=501)
-
-    [LayoutInflater, Inflate](http://aroundck.tistory.com/39)
-
-    [Version 점유율](http://developer.android.com/about/dashboards/index.html)
-
-    [Coursera](https://accounts.coursera.org/signin?course_id=971246&r=https%3A%2F%2Fclass.coursera.org%2Fandroid-001&user_action=class&topic_name=Programming%20Mobile%20Applications%20for%20Android%20Handheld%20Systems)
+      Linux Performance 관련 문서, 자료 모음.
 
 1. GLib
 
-    [Glib oop](http://lethean.github.io/)
+    * [대체로 무해함](http://lethean.github.io/search/?tags=GLib)
 
-    [그놈 개발 센터](https://developer.gnome.org/)
+      GLib 라이브러리 사용 예시와 상세한 설명이 있는 개인 블로그.
 
 ## Software Engineering
 
-[Snippets.org](http://www.snippets.org/)
-
-[Google Style Guide](http://google-styleguide.googlecode.com/svn/trunk/)
+* [Google Style Guide](https://google.github.io/styleguide/)
 
 ### Agile
 
-[TDD의 소개 - TDD의 장단점](http://hoonsbara.tistory.com/114)
+* [TDD의 소개 - TDD의 장단점](http://hoonsbara.tistory.com/114)
 
-[hello world » Android에서 @Inject, @Test](http://helloworld.naver.com/helloworld/textyle/342818)
+    개인 블로그에 TDD의 장단점이 잘 정리되어 있다.
 
-[Extreme Programming Roadmap](http://www.c2.com/cgi/wiki?ExtremeProgrammingRoadmap)
+* [Extreme Programming Roadmap](http://www.c2.com/cgi/wiki?ExtremeProgrammingRoadmap)
+
+    ExtremeProgramming (XP) 스터디 로드맵.
 
 ### OOP
 
-[OOP 설계 원칙 S.O.L.I.D.](http://www.slideshare.net/parkpd/oop-solid?fb_action_ids=463141240401446%2C462610233787880&fb_action_types=slideshare%3Aview&fb_source=other_multiline&action_object_map=%7B%22463141240401446%22%3A448454657809%2C%22462610233787880%22%3A10150766725793948%7D&action_type_map=%7B%22463141240401446%22%3A%22slideshare%3Aview%22%2C%22462610233787880%22%3A%22slideshare%3Aview%22%7D&action_ref_map=%5B%5D&code=AQCq0SRRqBe2QEhKex8Ks-d66zhf2Dd92axwbXRmeNFZps_TpDMK2_8DwPjm19926IlZmH-_qfahFI3f6--BNKG26vMzHYwdNFz6jYHynqI8EBqNv3sjr-4S7IlourHfaeEZ06G6anyf5PQRiOU0xIXKER6sHQ5-uPtGpfNbkttox6en7fGBxmbG11yWZCHWEIjiazDP8p4cmN2RhUTmjFKg#_=_)
+* [OOP 설계 원칙 S.O.L.I.D.](http://www.slideshare.net/parkpd/oop-solid?fb_action_ids=463141240401446%2C462610233787880&fb_action_types=slideshare%3Aview&fb_source=other_multiline&action_object_map=%7B%22463141240401446%22%3A448454657809%2C%22462610233787880%22%3A10150766725793948%7D&action_type_map=%7B%22463141240401446%22%3A%22slideshare%3Aview%22%2C%22462610233787880%22%3A%22slideshare%3Aview%22%7D&action_ref_map=%5B%5D&code=AQCq0SRRqBe2QEhKex8Ks-d66zhf2Dd92axwbXRmeNFZps_TpDMK2_8DwPjm19926IlZmH-_qfahFI3f6--BNKG26vMzHYwdNFz6jYHynqI8EBqNv3sjr-4S7IlourHfaeEZ06G6anyf5PQRiOU0xIXKER6sHQ5-uPtGpfNbkttox6en7fGBxmbG11yWZCHWEIjiazDP8p4cmN2RhUTmjFKg#_=_)
 
-### Design Pattern
-
-[표준 프레임워크](http://www.egovframe.go.kr/Main.do)
-
-[AspectJ](http://www.eclipse.org/aspectj/)
-
-[AspectC++](http://www.aspectc.org/)
-
-[교육, 컨설팅, 솔루션개발](http://consolution.co.kr/)
-
-[dynamic-tiles2](http://www.springbyexample.org/static/0.9/html/ar18.html#d0e3061)
-
-[도서출판 콘솔](http://consolbook.com/)
-
-[GUI Architectures](http://martinfowler.com/eaaDev/uiArchs.html)
+    SlideShare 발표용 자료.
 
 ### Prototyping
 
-[프로토타이핑 툴의 장단점](http://uxfactory.com/480)
+* [프로토타이핑 툴의 장단점](http://uxfactory.com/480)
+
+### Aspect-Oriented Software Development
+
+* [AspectJ](http://www.eclipse.org/aspectj/)
+
+* [AspectC++](http://www.aspectc.org/)
 
 ## Embedded
 
-[친절한 임베디드 시스템 개발자 되기](http://recipes.egloos.com/)
+* [임베디드 레시피](http://recipes.egloos.com/)
 
-[임베디드 리눅스 시스템 포럼](http://forum.falinux.com/zbxe/)
+    친절한 임베디드 시스템 개발자 되기 블로그 강좌. 책도 나왔다.
 
 ## Algorithm
 
-[VisuAlgo](http://www.comp.nus.edu.sg/~stevenha/visualization/index.html)
+### Training site
 
-[Dynamic programming](http://www.slideshare.net/fragilesez/dynamic-programming-6902646)
+* [Try-cat.ch](http://www.try-cat.ch/contest/main)
 
-### Problem bank
+* [Baekjoon Online Judge](https://www.acmicpc.net/)
 
-[정보 올림피아드](http://www.jungol.co.kr/site/)
+* [정보 올림피아드](http://www.jungol.co.kr/site/)
 
-[Programming Challenges](http://www.programming-challenges.com/pg.php?page=index)
-
-[Campus Virtual UVa](http://campusvirtual.uva.es/)
-
-[UVa Online Judge](http://uva.onlinejudge.org/index.php?option=com_frontpage&Itemid=1)
-
-[알고리즘 트레이닝](http://211.228.163.31/index.php)
-
-[Try-cat.ch](http://www.try-cat.ch/contest/main)
-
-[Baekjoon Online Judge](https://www.acmicpc.net/)
-
-## Reverse Engineering
-
-[리버스코어](http://reversecore.tistory.com/)
-
-[안티 디버깅(Anti-Debugging)](http://dakuo.tistory.com/40)
-
-[VirusTotal](https://www.virustotal.com/)
-
-[/hotpatch, /functionpadmi](http://blog.naver.com/iwillhackyou/110066358544)
+* [UVa Online Judge](http://uva.onlinejudge.org/index.php?option=com_frontpage&Itemid=1)
 
 ## Archive
 
 ### Open Source
 
-1. 참여 가이드
+* [GitHub opensource guide](https://github.com/github/open-source-guide/blob/gh-pages/README.md)
 
-    [GitHub opensource guide](https://github.com/github/open-source-guide/blob/gh-pages/README.md)
+    GitHub의 오픈소스 가이드로, 한국어 번역 [Repository](https://github.com/2korean/open-source-guide), [Preview](https://2korean.github.io/open-source-guide/)는 각 링크를 참고하면 된다.
 
-    [초보 개발자가 오픈소스에 기여하는 5단계 - bloter](http://www.bloter.net/archives/197960)
+* [초보 개발자가 오픈소스에 기여하는 5단계 - Bloter](http://www.bloter.net/archives/197960)
 
-    [오픈소스 프로젝트에 참여하기 - Treehouse Blog](http://blog.teamtreehouse.com/getting-involved-open-source-projects)
+    오픈소스 기여에 관련된 Bloter 기사다. 내용은 짧다.
 
-    [오픈소스 기여 방법에 대한 토론 - Quora](https://www.quora.com/How-do-I-participate-or-contribute-in-open-source-projects)
+* [오픈소스 시대의 공부하는 방식의 변화 - 조대협의 블로그](http://bcho.tistory.com/873)
 
-1. 읽을거리
+    조대협님의 공부하는 방식에 대한 글이다.
 
-    [오픈소스 시대의 공부하는 방식의 변화](http://bcho.tistory.com/873)
+* [Getting Involved in Open Source Projects - Treehouse Blog](http://blog.teamtreehouse.com/getting-involved-open-source-projects)
 
-    [오픈소스 활동의 오해](https://softwaregeeks.org/2014/01/17/%EC%98%A4%ED%94%88%EC%86%8C%EC%8A%A4-%ED%99%9C%EB%8F%99%EC%9D%98-%EC%98%A4%ED%95%B4/)
+    오픈소스 프로젝트 참여에 관련된 개인 블로그 포스팅이다.
+
+* [오픈소스 기여 방법에 대한 토론 - Quora](https://www.quora.com/How-do-I-participate-or-contribute-in-open-source-projects)
 
 ## Comments
 
