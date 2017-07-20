@@ -12,11 +12,14 @@ tags: Git GitHub GitHubPages jekyll jekyll-now blog
 
 ## 왜 GitHub Pages인가
 
-고민 끝에 [GitHub Pages][github-pages]를 선택했다. 진입장벽이 있다고는 하나 매력적인 면(**심플함, 자유도, 편리함, ...**)들이 있었다.
+진입장벽이 있다고는 하나 매력적인 면(**심플함, 자유도, 편리함, ...**)들이 있었다.
 
 [GitHub Pages][github-pages]는 저장소(무료 1GB)를 `{username}.github.io` 주소로 호스팅해주는 서비스다. html, css 등의 파일들을 직접 만들고 관리해야 한다는 소리다.
 
 여기에 [jekyll][jekyll]이라는 정적 사이트 생성기를 연동하면 아주 편리해진다. [jekyll][jekyll]을 간단하게 설명하면, markdown 문법으로 포스팅을 작성하면 [jekyll][jekyll]에서 미리 설정한대로 웹 페이지 파일(html, css)을 생성해준다.
+
+
+
 
 ## 작업 환경
 
