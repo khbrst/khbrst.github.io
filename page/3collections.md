@@ -69,7 +69,7 @@ type: page
 
 * [YES24](http://www.yes24.com/)
 
-## Dev Blog
+## Dev blog
 
 * [Hello world](http://d2.naver.com/helloworld)
 
@@ -285,8 +285,6 @@ type: page
 
 * [Google Style Guide](https://google.github.io/styleguide/)
 
-### Agile
-
 * [TDD의 소개 - TDD의 장단점](http://hoonsbara.tistory.com/114)
 
     개인 블로그에 TDD의 장단점이 잘 정리되어 있다.
@@ -295,13 +293,9 @@ type: page
 
     ExtremeProgramming (XP) 스터디 로드맵.
 
-### OOP
-
 * [OOP 설계 원칙 S.O.L.I.D.](http://www.slideshare.net/parkpd/oop-solid?fb_action_ids=463141240401446%2C462610233787880&fb_action_types=slideshare%3Aview&fb_source=other_multiline&action_object_map=%7B%22463141240401446%22%3A448454657809%2C%22462610233787880%22%3A10150766725793948%7D&action_type_map=%7B%22463141240401446%22%3A%22slideshare%3Aview%22%2C%22462610233787880%22%3A%22slideshare%3Aview%22%7D&action_ref_map=%5B%5D&code=AQCq0SRRqBe2QEhKex8Ks-d66zhf2Dd92axwbXRmeNFZps_TpDMK2_8DwPjm19926IlZmH-_qfahFI3f6--BNKG26vMzHYwdNFz6jYHynqI8EBqNv3sjr-4S7IlourHfaeEZ06G6anyf5PQRiOU0xIXKER6sHQ5-uPtGpfNbkttox6en7fGBxmbG11yWZCHWEIjiazDP8p4cmN2RhUTmjFKg#_=_)
 
     SlideShare 발표용 자료.
-
-### Aspect-Oriented Software Development
 
 * [AspectJ](http://www.eclipse.org/aspectj/)
 
@@ -315,8 +309,6 @@ type: page
 
 ## Algorithm
 
-### Training site
-
 * [Try-cat.ch](http://www.try-cat.ch/contest/main)
 
 * [Baekjoon Online Judge](https://www.acmicpc.net/)
@@ -325,9 +317,7 @@ type: page
 
 * [UVa Online Judge](http://uva.onlinejudge.org/index.php?option=com_frontpage&Itemid=1)
 
-## Archive
-
-### Open Source
+## Open Source
 
 * [GitHub opensource guide](https://github.com/github/open-source-guide/blob/gh-pages/README.md)
 

@@ -2,7 +2,7 @@
 layout: post
 title:  "GitHub Pages로 블로그 시작하기"
 categories: Dev
-tags: Git GitHub GitHubPages jekyll jekyll-now blog
+tags: git github github-pages jekyll jekyll-now blog
 ---
 
 * content
@@ -66,9 +66,11 @@ bundle exec jekyll serve
 
 저장소를 fork하는 방법이 아니라, clone한 후에 로컬에 덮어씌워서 적용시켰다.
 
-#### Trouble shooting
+## Trouble shooting
 
-**Dependency Error**가 발생했다. 아래와 같이 해결하면 된다([출처][jekyll-now-bug]).
+### Dependency Error
+
+jekyll theme 설치 도중 **Dependency Error**가 발생했다. `jekyll-sitemap`으로 문제가 발생한 경우, 아래와 같이 해결하면 된다([출처][jekyll-now-bug]).
 
 ```bash
 # For additional dependency
@@ -80,6 +82,24 @@ gem install jekyll-sitemap
 # Gemfile
 ...
 gem 'jekyll-sitemap'
+```
+
+### Ruby install on Ubuntu
+
+git bash에서 bash on windows 10으로 갈아타면서 환경 설정을 새로 하며 문제가 발생했다.
+
+bash on Windows 10에 설치되어 있는 Ruby는 1.x버전인데, [jekyll][jekyll]은 Ruby 2.x 이상 버전이 필요해서 설치가 실패했다. 그래서 익숙한 apt-get package manager를 통해 업그레이드(`sudo apt-get install ruby`)하려고 했지만 실패했다.
+
+열심히 구글링해보니, [RVM(Ruby Version Manager)][rvm]을 통해 설치를 해야 했다. Ubuntu 환경에서는 [가이드][rvm-ubuntu]를 참고해서 아래와 같이 설치했다. [가이드][rvm-ubuntu]에서 `Run command as login shell`로 가이드하는 부분이 있는데, `bash --login` 실행만 해주면 해결된다.
+
+```bash
+# Pre-requisites for ppa
+sudo apt-get install software-properties-common
+sudo apt-add-repository -y ppa:rael-gc/rvm
+sudo apt-get update
+sudo apt-get install rvm
+bash --login
+rvm install ruby
 ```
 
 ## Appendix. VSCode + git bash
@@ -99,3 +119,5 @@ VSCode > File > Preferences > User settings 화면에서 아래 한 줄을 추�
 [github]:         https://github.com
 [github-new]:     https://github.com/new
 [github-pages]:   https://pages.github.com
+[rvm]:            https://rvm.io/
+[rvm-ubuntu]:     https://github.com/rvm/ubuntu_rvm
