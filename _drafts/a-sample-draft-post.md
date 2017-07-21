@@ -10,8 +10,7 @@ tags:
 
 index
 
-
-
+<!--more-->
 
 read all
 

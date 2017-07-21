@@ -18,8 +18,7 @@ tags: Git GitHub GitHubPages jekyll jekyll-now blog
 
 여기에 [jekyll][jekyll]이라는 정적 사이트 생성기를 연동하면 아주 편리해진다. [jekyll][jekyll]을 간단하게 설명하면, markdown 문법으로 포스팅을 작성하면 [jekyll][jekyll]에서 미리 설정한대로 웹 페이지 파일(html, css)을 생성해준다.
 
-
-
+<!--more-->
 
 ## 작업 환경
 
