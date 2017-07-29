@@ -90,7 +90,7 @@ git bash에서 bash on windows 10으로 갈아타면서 환경 설정을 새로 
 
 bash on Windows 10에 설치되어 있는 Ruby는 1.x버전인데, [jekyll][jekyll]은 Ruby 2.x 이상 버전이 필요해서 설치가 실패했다. 그래서 익숙한 apt-get package manager를 통해 업그레이드(`sudo apt-get install ruby`)하려고 했지만 실패했다.
 
-열심히 구글링해보니, [RVM(Ruby Version Manager)][rvm]을 통해 설치를 해야 했다. Ubuntu 환경에서는 [가이드][rvm-ubuntu]를 참고해서 아래와 같이 설치했다. [가이드][rvm-ubuntu]에서 `Run command as login shell`로 가이드하는 부분이 있는데, `bash --login` 실행만 해주면 해결된다.
+열심히 구글링해보니, [RVM(Ruby Version Manager)][rvm]을 통해 설치를 해야 했다. Ubuntu 환경에서는 [가이드][rvm-ubuntu]를 참고해서 아래와 같이 설치했다. [가이드][rvm-ubuntu]에서 `Run command as login shell`, `Logout and login`으로 가이드하는 부분이 있다. Windows 환경이기 때문에 재부팅한 후, `bash --login` 실행하고 다음 명령들을 실행하면 해결된다. 이후 `login shell`이 필요할 때마다 `bash --login`을 실행하거나, `bash -l -c "{command list}"` 형태로 실행해야 하는 번거로움이 있다.
 
 ```bash
 # Pre-requisites for ppa
@@ -98,8 +98,11 @@ sudo apt-get install software-properties-common
 sudo apt-add-repository -y ppa:rael-gc/rvm
 sudo apt-get update
 sudo apt-get install rvm
+# Logout and login / System reboot
 bash --login
 rvm install ruby
+# or
+bash -l -c rvm install ruby
 ```
 
 ## Appendix. VSCode + git bash
@@ -112,6 +115,18 @@ VSCode > File > Preferences > User settings 화면에서 아래 한 줄을 추�
 "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
 ```
 
+위에서 설명한 바와 같이, Windows 환경에서 `jekyll` 같이 `bash login shell`이 필요한 경우는 `bash --login`을 실행한 후 작업하거나, `bash -l -c "{command list}"` 형태로 실행해야 한다. [여기][bash-login]에 해결책이 있을 것이다.
+
+## Appendix. VSCode + bash login shell on Ubuntu
+
+PC Ubuntu 환경 `Ruby install`에 추가할 설명이 있다. 터미널의 `Run command as login shell` 설정을 켜고 `Logout and login`하고 나면, `rvm install ruby`가 터미널에서 정상적으로 실행이 된다.
+
+하지만 [VSCode][vscode]의 integrated terminal에서는 여전히 `login shell` 문제가 해결되지 않는데, [workaround][bash-login]를 찾아 공유한다. [여기][bash-login]에 다양한 해결책들이 있는데, 그 중 하나를 공유하자면 VSCode > File > Preferences > User settings 화면에 아래 한 줄을 추가한다.
+
+```json
+"terminal.integrated.shellArgs.linux": ["--login"]
+```
+
 [jekyll]:         https://jekyllrb.com
 [jekyll-now]:     https://github.com/barryclark/jekyll-now
 [jekyll-now-bug]: https://github.com/qwtel/hydejack/issues/8
@@ -121,3 +136,4 @@ VSCode > File > Preferences > User settings 화면에서 아래 한 줄을 추�
 [github-pages]:   https://pages.github.com
 [rvm]:            https://rvm.io/
 [rvm-ubuntu]:     https://github.com/rvm/ubuntu_rvm
+[bash-login]:     https://github.com/Microsoft/vscode/issues/7263#issuecomment-224207986
