@@ -14,6 +14,4 @@ index
 
 read all
 
-links
-
 [jekyll]:         https://jekyllrb.com
