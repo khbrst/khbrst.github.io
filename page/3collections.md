@@ -89,6 +89,10 @@ type: page
 
     많이 사용되는 SSL file format들에 대한 간단한 설명이다.
 
+* [Using issues to host GitHub Pages screenshots](http://blog.davidebbo.com/2014/11/using-issues-for-github-pages-screenshots.html)
+
+    GitHub Pages에 이미지를 업로드하는 방법들에 대한 가이드이다. Post마다 GitHub issue를 생성해서 이미지를 업로드하는 방법이 가장 깔끔하다.
+
 ## Tools
 
 * [cmder](http://cmder.net/)
