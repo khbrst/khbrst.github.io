@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "해커와 화가"
+title: "해커와 화가"
 categories: Dev Book
 tags: book hacker
 ---
