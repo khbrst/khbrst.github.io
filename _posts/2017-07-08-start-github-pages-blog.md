@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "GitHub Pages로 블로그 시작하기"
-categories: Dev
+title: "GitHub Pages로 블로그 시작하기"
+categories: dev
 tags: git github github-pages jekyll jekyll-now blog
 ---
 
