@@ -187,6 +187,10 @@ type: page
 
     초심자를 위한 웹 브라우저 동작에 대한 글이다.
 
+* [HTTP Documentation](http://httpwg.org/specs/)
+
+    HTTP 표준에 관련된 공식 문서들을 좀더 깔끔한 포맷으로 볼 수 있는 사이트다.
+
 ### Docker
 
 * [가장 빨리 만나는 도커(Docker)](http://www.pyrasis.com/private/2014/11/30/publish-docker-for-the-really-impatient-book)
