@@ -2,7 +2,7 @@
 layout: post
 title: "Doxygen으로 문서화하기"
 categories: dev
-tags: doxygen graphviz chm help documentation
+tags: doxygen graphviz help documentation
 ---
 
 * content

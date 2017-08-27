@@ -2,7 +2,7 @@
 layout: post
 title: "소프트웨어 엔지니어의 의사소통 능력"
 categories: dev
-tags: developer software-engineer communication-skills documentation
+tags: developer software-engineer communication-skills documentation blog
 ---
 
 * content

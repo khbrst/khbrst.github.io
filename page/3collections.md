@@ -105,7 +105,7 @@ type: page
 
 * [The Meson Build system](http://mesonbuild.com/)
 
-    C, C++, Fortran, Java, Rust 언어를 지원하는 멀티 플랫폼 오픈소스 빌드 시스템이다.
+    C, C++, Fortran, Java, Rust 언어를 지원하는 멀티 플랫폼 오픈소스 빌드 시스템이다([Linux.conf.au 2015 presentation video](https://www.youtube.com/watch?v=KPi0AuVpxLI)).
 
 ### Web based
 
