@@ -98,11 +98,11 @@ analytics:
 # Site Author
 author:
   name             : "Yoon Youngho"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "https://avatars3.githubusercontent.com/u/4952571" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Linux, Android, Web Software Engineer"
-  location         : "Somewhere"
+  location         : "Suwon-si, Korea"
   email            : "khbrst@gmail.com"
-  uri              :
+  uri              : "https://khbrst.github.io"
   home             : # null (default), "absolute or relative url to link to author home"
   bitbucket        :
   codepen          :
@@ -111,7 +111,7 @@ author:
   facebook         :
   foursquare       :
   github           : "khbrst"
-  gitlab           :
+  gitlab           : "khbrst"
   google_plus      :
   keybase          :
   instagram        :
@@ -196,7 +196,7 @@ sass:
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Asia/Seoul # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins (previously gems:)
