@@ -1,12 +1,15 @@
 ---
-layout: post
 title: "GitHub Pages로 블로그 시작하기"
-categories: dev
-tags: git github github-pages jekyll jekyll-now blog
+categories:
+    - dev
+tags:
+    - git
+    - github
+    - github-pages
+    - jekyll
+    - jekyll-now blog
+toc: true
 ---
-
-* content
-{:toc}
 
 공부 과정들을 정리하는 겸 블로그를 다시 시작하려고 한다. 네이버, 티스토리 등의 블로그 서비스를 사용했었으나 불편함이 있어 여러 서비스들을 찾아보았다.
 
@@ -17,8 +20,6 @@ tags: git github github-pages jekyll jekyll-now blog
 [GitHub Pages][github-pages]는 저장소(무료 1GB)를 `{username}.github.io` 주소로 호스팅해주는 서비스다. html, css 등의 파일들을 직접 만들고 관리해야 한다는 소리다.
 
 여기에 [jekyll][jekyll]이라는 정적 사이트 생성기를 연동하면 아주 편리해진다. [jekyll][jekyll]을 간단하게 설명하면, markdown 문법으로 포스팅을 작성하면 [jekyll][jekyll]에서 미리 설정한대로 웹 페이지 파일(html, css)을 생성해준다.
-
-<!--more-->
 
 ## 작업 환경
 
