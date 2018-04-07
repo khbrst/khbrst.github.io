@@ -16,10 +16,10 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "ko-KR"
-title                    : "개발과 일상 이야기"
+title                    : "Software development and Study"
 title_separator          : "-"
-name                     : "윤영호"
-description              : "소프트웨어 개발, 운동, 자전거, 독서"
+name                     : "Yoon Youngho"
+description              : "Software developement, Reading"
 url                      : "https://khbrst.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "khbrst/khbrst.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -97,9 +97,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "윤영호"
+  name             : "Yoon Youngho"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "소프트웨어 엔지니어"
+  bio              : "Linux, Android, Web Software Engineer"
   location         : "Somewhere"
   email            : "khbrst@gmail.com"
   uri              :
