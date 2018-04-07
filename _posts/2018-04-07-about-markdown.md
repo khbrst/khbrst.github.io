@@ -1,12 +1,16 @@
 ---
-layout: post
 title: "Markdown에 관하여"
-categories: dev
-tags: github vscode markdown stackedit blog jekyll
+categories:
+    - dev
+tags:
+    - github
+    - vscode
+    - markdown
+    - stackedit
+    - blog
+    - jekyll
+toc: true
 ---
-
-* content
-{:toc}
 
 [Markdown](https://en.wikipedia.org/wiki/Markdown)은 [markup language](https://en.wikipedia.org/wiki/Markup_language)의 일종이다. 파일 확장자로는 `.md`, `.markdown`을 사용한다.
 
@@ -24,7 +28,6 @@ tags: github vscode markdown stackedit blog jekyll
 
 ![image](https://user-images.githubusercontent.com/4952571/38452773-eaf93d0c-3a85-11e8-881f-af9647440407.png)
 
-<!--more-->
 
 ### Disadvantages of  web WYSIWYG editor
 
