@@ -1,12 +1,14 @@
 ---
-layout: post
 title: "Doxygen으로 문서화하기"
-categories: dev
-tags: doxygen graphviz help documentation
+categories:
+    - dev
+tags:
+    - doxygen
+    - graphviz
+    - help
+    - documentation
+toc: true
 ---
-
-* content
-{:toc}
 
 프로젝트의 전반적인 내용을 공유하기 위해서는 문서화가 중요하다. 특히나 프로젝트가 커지면 커질수록 더 중요해지는데, 거대한 규모의 코드를 보는데 관련 문서가 부실할 때는 너무나 암담하다.
 
@@ -17,8 +19,6 @@ tags: doxygen graphviz help documentation
 본문에서는 Ubuntu 16.04 LTS 환경에서 [googletest][5] 프로젝트를 HTML 문서로 만드는 예제를 설명하겠다.
 
 > [원문][1]에서는 학부생 시절 Windows 7 환경에서 [MFC][3] 프로젝트를 문서([chm 파일][4])로 만드는 예제를 설명했다.
-
-<!--more-->
 
 ## 작업 환경
 

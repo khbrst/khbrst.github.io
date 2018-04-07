@@ -1,20 +1,19 @@
 ---
-layout: post
 title: "주석에 대한 고민"
-categories: dev discussion
-tags: comment software-engineering agile
+categories:
+    - dev
+tags:
+    - comment
+    - software-engineering
+    - agile
+toc: true
 ---
-
-* content
-{:toc}
 
 ## 코드 주석은 필수인가?
 
 친구가 흥미로운 주제를 던져주었다. Software engineering, Agile 관련 도서들을 읽고 지금까지 개발하며 들었던 의문이지만 글로 작성하면서 *의식의 흐름대로* 생각을 정리해보려고 한다.
 
 찬성, 반대 진영 의견을 들어보면 모두 각자의 입장에서 일리 있는 이야기다.
-
-<!--more-->
 
 ## 찬성파
 
