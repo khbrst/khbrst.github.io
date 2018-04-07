@@ -1,16 +1,12 @@
 ---
+layout: post
 title: "대량살상 수학무기"
-categories:
-    - book
-tags:
-    - book
-    - big-data
-    - math
-    - algorithm
-    - society
-    - politics
-toc: true
+categories: book
+tags: book big-data math algorithm society politics
 ---
+
+* content
+{:toc}
 
 <div style="clear:left;text-align:left;"><div style="float:left;margin:0 15px 5px 0;"><a href="http://www.yes24.com/24/Goods/49866464" style="display:inline-block;overflow:hidden;border:solid 1px #ccc;" target="_blank"><img style="margin:-1px;vertical-align:top;" src="http://image.yes24.com/goods/49866464/M" border="0" alt="대량살상 수학무기"></a></div><div><p style="line-height:1.2em;color:#333;font-size:14px;font-weight:bold;">대량살상 수학무기</p><p style="margin-top:5px;line-height:1.2em;color:#666;"><a href="http://www.yes24.com//SearchCorner/Result?domain=ALL&author_yn=Y&query=&auth_no=188540" target="_blank">캐시 오닐</a> 저/<a href="http://www.yes24.com//SearchCorner/Result?domain=ALL&author_yn=Y&query=&auth_no=140561" target="_blank">김정혜</a> 역</p><p style="margin-top:14px;line-height:1.5em;text-align:justify;color:#999;">“굉장히 흥미롭고 대단히 심란케 하는 책” <br/>《사피엔스》 저자 유발 하라리 강력 추천 <br/><br/> 아마존닷컴 52주 연속 분야 1위, 2016 내셔널 북어워드 선정작 <br/>[뉴욕타임스] [네이처] [보스턴글로브] [포춘] [커커스리뷰] 등 <br/>12개 주요 매체 ‘올해의 책’ 선정(2016) <br/><br/>수학과 데이터, IT기술의 결합으로 탄생한 빅데이터 모형은 편견에 사로잡힌 인간보다 공정하며, 개인의 권리와 이익을 보호한다고 알려져 있다. 그러나 현실은 정반대다. 정부, 기업, 사회에 도입된 데이터...</p></div></div>
 
@@ -19,6 +15,8 @@ toc: true
 책 초반에 저자가 생각하는 잘못된 빅데이터, 알고리즘 모형의 조건을 알려주고 챕터마다 금융, 교육 등 구체적인 사례를 들어가며 이야기를 풀어나간다.
 
 IT 관련 지식이 없어도 가볍게 읽을 수 있는 수준의 내용들이다.
+
+<!--more-->
 
 ## 추천
 

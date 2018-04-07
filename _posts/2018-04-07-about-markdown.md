@@ -28,6 +28,7 @@ toc: true
 
 ![image](https://user-images.githubusercontent.com/4952571/38452773-eaf93d0c-3a85-11e8-881f-af9647440407.png)
 
+
 ### Disadvantages of  web WYSIWYG editor
 
 국내 블로그 사이트들은 대부분 자체 웹 위지윅 에디터만 지원한다. 이러한 에디터는 편리하게 문서를 작성할 수 있지만, 단점이 있다.

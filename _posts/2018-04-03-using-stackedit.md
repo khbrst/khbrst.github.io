@@ -1,15 +1,12 @@
 ---
+layout: post
 title: "StackEdit 사용하기"
-categories:
-    - dev
-tags:
-    - github
-    - markdown
-    - stackedit
-    - blog
-    - jekyll
-toc: true
+categories: dev
+tags: github markdown stackedit blog jekyll
 ---
+
+* content
+{:toc}
 
 ## What is StackEdit
 
@@ -18,6 +15,8 @@ toc: true
 StackEdit은 markdown 문법으로 문서 작성이 가능한 웹 기반 에디터다. 브라우저로 접속해서 사용할 수 있고, 구글 계정 로그인을 통한 동기화도 지원한다.
 
 Markdown 문법에 대해서는 별도의 포스팅을 작성할 계획이다.
+
+<!--more-->
 
 ## Why use
 
