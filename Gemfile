@@ -25,7 +25,7 @@ source "https://rubygems.org"
 #   gem "jekyll-data"
 #
 # If you have any other plugins, put them here!
-#group :jekyll_plugins do
-#end
+group :jekyll_plugins do
+  gem "jekyll-archives"
+end
 
-gemspec
