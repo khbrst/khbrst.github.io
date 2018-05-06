@@ -63,7 +63,7 @@ Google에 `rust benchmark`, `rust performance`만 검색해봐도 많은 결과�
 
 시험 환경에 따라서 많이 달라질 수 있지만, 일반적으로 C, C++과 비슷한 수준이라는 것을 알 수 있다. [공식 사이트 FaQ](https://www.rust-lang.org/en-US/faq.html)에서는 대놓고 *C, C++에 경쟁력있을 정도로 빠르다*고 적어놨다. [Benchmarks Game](https://benchmarksgame.alioth.debian.org/u64q/compare.php?lang=rust&lang2=gpp)이나 [기타 이것 저것](https://github.com/kostya/benchmarks) 링크가 있으니 참고하자.
 
-## Prevents segfaults, Thread safety
+## Prevents segfaults and Thread safety
 
 Rust 언어는 garbage collector가 없지만 메모리, 스레드 문제를 컴파일 시간에 잡아낸다. Rust는 언어 자체의 규칙과 특징으로 이 어려운 목표를 이루어냈다. 규칙들을 간단하게 묶어서 적어보겠다. 아래에서 말하는 값은 힙 메모리를 할당하는 값들을 말한다.
 
