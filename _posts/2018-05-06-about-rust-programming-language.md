@@ -15,7 +15,7 @@ toc: true
 
 일하다가 우연히 알게 된 프로그래밍 언어인데, 공부할수록 재미있고 나 혼자 알고 있기 아까워서 얕게 훑어보는 글을 작성해보았다.
 
-![image](https://www.rust-lang.org/logos/rust-logo-blk.svg)
+![image](https://user-images.githubusercontent.com/4952571/39790916-9a6484d0-5373-11e8-9272-c69fe17df0d7.png)
 
 [Rust 공식 사이트](https://www.rust-lang.org)에서는 "*매우 빠르며, 세그폴트를 방지하고, 스레드 안전성을 보장하는 시스템 프로그래밍 언어*"로, [Rust GitHub 저장소](https://github.com/rust-lang/rust)에서는 "*A safe, concurrent, practical language.:안전하고, 병렬적이며, 실용적인 언어*"로 소개하고 있다.
 
